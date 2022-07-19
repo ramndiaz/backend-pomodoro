@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request, Response
 from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_required, JWTManager
 from flask_cors import CORS, cross_origin
 from bson import json_util
-from __main__ import app
+from app import app
 from app import mongo
 
 @cross_origin

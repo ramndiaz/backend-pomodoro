@@ -3,7 +3,7 @@ from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_requir
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS, cross_origin
 from bson import json_util
-from __main__ import app
+from app import app
 from app import mongo, jwt
 
 @cross_origin
