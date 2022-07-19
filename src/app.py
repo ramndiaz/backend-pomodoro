@@ -69,4 +69,4 @@ from tracker import routes
 
 
 if __name__=="__main__":
-	app.run(port=5000, debug=False)
+	app.run(debug=False)
